@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Loco Order</title>
+	<link rel="stylesheet" type="text/css" href="order.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="container-header">
+	<div class="container-logo">
+		<div class="logo"><img src="Assets/spy.png"></div>
+	</div>
+	<div class="Loco">
+		<div class="mister">Mister Loco</div>
+	</div>
+</div>
+<div class="container-navigationbar">
+	<div class="class-container-dropdown1">
+		<div class="drop1">
+			<div class="container-buttondrop1"> 
+		  		<div class="buttondrop1">
+		  			<a href="main.html">Home</a>
+		  		</div>
+		  	</div>  	
+		</div>
+	</div>
+	<div class="container-dropdown2">
+		<div class="drop2">
+			<div class="container-buttondrop2"> 
+		  		<a class="buttondrop2">Product</a>
+		  	</div>
+			  	<div class="content-drpdwn">
+				    <a href="#">Clothes</a>
+					<a href="#">Pants</a>
+				</div>
+		</div>
+	</div>
+	<div class="class-container-dropdown3">
+		<div class="drop3">
+			<div class="container-buttondrop3"> 
+		  		<div class="buttondrop3">
+		  			<a href="order.html">Order</a>
+		  		</div>
+		  	</div>  	
+		</div>
+	</div>
+	<div class="container-dropdown4">
+		<div class="drop4">
+			<div class="container-buttondrop4"> 
+		  		<a class="buttondrop4">More Information</a>
+		  	</div>
+			  	<div class="content-drpdwn">
+				    <a href="#">Partner</a>
+				    <a href="contactus.html">Contact Us</a>
+				</div>
+		</div>
+	</div>
+</div>
+<div class="container-jarak"></div>
+<div class="container-content"> 
+	<div class="containt-orderform">
+		<div class="content-orderform">
+			Order Form
+		</div>
+	</div>
+	<br><br>	
+	<div class="container-form"> 
+		<form action="" id="order-form">
+			<table> 
+				<tr>
+					<td>Item Name</td>
+					<td>:</td>
+					<td><input type="text" id="itemname"></td>
+				</tr>
+				<tr>
+					<td>Quantity</td>
+					<td>:</td>
+					<td><input type="text" id="qty"></td>
+				</tr>
+				<tr>
+					<td>Name</td>
+					<td>:</td>
+					<td><input type="text" id="name"></td>
+				</tr>
+				<tr>
+					<td>Phone Number</td>
+					<td>:</td>
+					<td><input type="text" id="phonenumber"></td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td>:</td>
+					<td><input type="text" id="email"></td>
+				</tr>
+				<tr>
+					<td>Address</td>
+					<td>:</td>
+					<td><textarea id="address"></textarea></td>
+				</tr>
+				<tr>
+					<td>Shipping Type</td>
+					<td>:</td>
+					<td>
+						<select id="Shipping">
+							<option value="">Choose Your Type</option>
+							<option value="Express">Express</option>
+							<option value="Yes">Yes</option>
+							<option value="Instant">Instant</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Gender</td>
+					<td>:</td>
+					<td>
+						<input type="radio" id="male-radio" name="gender">Male
+						<input type="radio" id="female-radio" name="gender">Female
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3">
+						<input type="checkbox" name="" id="agree-check">I agree
+					</td>
+				</tr>
+				<div class="btnOrder"> 
+					<tr>
+						<td colspan="3">
+							<input type="submit" value="Order Items" >
+						</td>
+					</tr>
+				</div>
+		</table>
+	</form>
+</div>	
+</body>
+<script src="order.js"></script>
+</html>
